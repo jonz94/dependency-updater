@@ -3,6 +3,7 @@ import { readFile } from 'fs/promises'
 import prompts from 'prompts'
 import { table, TableUserConfig } from 'table'
 import { detectPackageManager } from './detect-package-manager'
+import { getOptions } from './setup-options'
 
 interface OutdatedPackagesJson {
   [packageName: string]: OutdatedPackageInfo
@@ -15,6 +16,8 @@ interface OutdatedPackageInfo {
 }
 
 const run = async () => {
+  const options = getOptions()
+
   console.log('🚀 Running @jonz94/dependency-updater v@VERSION_PLACEHOLDER@')
 
   console.log('🔍 Checking for outdated packages...')
@@ -148,7 +151,8 @@ const run = async () => {
   const updateCommand = updateCommandLookupTable.get(packageManager) as string
 
   autoUpdatablePackages.forEach((packageName) => {
-    const { wanted: wantedVersion } = outdatedPackagesJson[packageName]
+    const { current: currentVersion, wanted: wantedVersion } =
+      outdatedPackagesJson[packageName]
 
     console.log(`👍 Updating ${packageName} to ${wantedVersion}...`)
 
@@ -159,14 +163,28 @@ const run = async () => {
       : [updateCommand, `${packageName}@^${wantedVersion}`]
 
     spawnSync(packageManagerCommand, args)
-    spawnSync('git', ['add', '-A'])
-    spawnSync('git', [
-      'commit',
-      '-m',
-      `👍 chore(${
-        isDevDependency ? 'dev-' : ''
-      }deps): bump \`${packageName}\` to ${wantedVersion}`,
-    ])
+
+    if (options.enableGitCommit) {
+      const {
+        emoji: emojiOption,
+        gitCommitType: type,
+        gitCommitVerb: verb,
+        showFrom,
+      } = options
+
+      const emoji =
+        emojiOption === true
+          ? '👍 '
+          : emojiOption && emojiOption !== ''
+          ? `${emojiOption} `
+          : ''
+      const scope = isDevDependency ? 'dev-' : ''
+      const from = showFrom ? ` from ${currentVersion}` : ''
+      const gitMessage = `${emoji}${type}(${scope}): ${verb} \`${packageName}\`${from} to ${wantedVersion}`
+
+      spawnSync('git', ['add', '-A'])
+      spawnSync('git', ['commit', '-m', gitMessage])
+    }
   })
 
   console.log(`🎉 Everything is up-to-date!`)

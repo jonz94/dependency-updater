@@ -33,10 +33,12 @@
     "replaceVersionPlaceholder": "cross-var replace '@VERSION_PLACEHOLDER@' $npm_package_version dist/index.js"
   },
   "dependencies": {
+    "minimist": "^1.2.6",
     "prompts": "^2.4.2",
     "table": "^6.8.0"
   },
   "devDependencies": {
+    "@types/minimist": "^1.2.2",
     "@types/prettier": "^2.6.3",
     "@types/prompts": "^2.0.14",
     "cross-var": "^1.1.0",
