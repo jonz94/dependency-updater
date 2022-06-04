@@ -14,7 +14,7 @@ const defaultOptions: Options = {
   enableGitCommit: true,
   gitCommitType: 'build',
   gitCommitVerb: 'update',
-  showFrom: true,
+  showFrom: false,
 }
 
 const getOptions = () => {
