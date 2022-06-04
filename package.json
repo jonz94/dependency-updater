@@ -28,6 +28,7 @@
   "scripts": {
     "build": "tsc && npm run replaceVersionPlaceholder",
     "clean": "rimraf dist",
+    "exec": "npm run build && node .",
     "format": "prettier --write .",
     "prepublishOnly": "npm run clean && npm run build",
     "replaceVersionPlaceholder": "cross-var replace '@VERSION_PLACEHOLDER@' $npm_package_version dist/index.js"
