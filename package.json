@@ -1,0 +1,48 @@
+{
+  "name": "@jonz94/dependency-updater",
+  "version": "0.1.0",
+  "description": "A CLI tool to bump package version",
+  "homepage": "https://github.com/jonz94/dependency-updater#readme",
+  "bugs": {
+    "url": "https://github.com/jonz94/dependency-updater/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonz94/dependency-updater.git"
+  },
+  "license": "Unlicense",
+  "author": {
+    "name": "jonz94",
+    "email": "jody16888@gmail.com"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "dependency-updater": "./bin/dependency-updater"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc && npm run replaceVersionPlaceholder",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run clean && npm run build",
+    "replaceVersionPlaceholder": "cross-var replace '@VERSION_PLACEHOLDER@' $npm_package_version dist/index.js"
+  },
+  "dependencies": {
+    "prompts": "^2.4.2",
+    "table": "^6.7.5"
+  },
+  "devDependencies": {
+    "@types/prompts": "^2.0.14",
+    "cross-var": "^1.1.0",
+    "prettier": "^2.5.1",
+    "prettier-plugin-organize-imports": "^2.3.4",
+    "prettier-plugin-packagejson": "^2.2.15",
+    "replace": "^1.2.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.4"
+  }
+}
