@@ -42,12 +42,12 @@ Usage
 
 - Execute `dependency-updater` command inside the project root directory
 
-```bash
+```
 dependency-updater
 ```
 
 - If you don't want to install the package globally, you can use following command:
 
-```bash
-npx -p @jonz94/dependency-updater@latest dependency-updater
+```
+npx @jonz94/dependency-updater@latest
 ```
