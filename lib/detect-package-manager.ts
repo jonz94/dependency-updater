@@ -5,7 +5,7 @@ const detectPackageManager = () => {
 
   const lookupTable = new Map([
     ['npm', 'package-lock.json'],
-    ['pnpm', 'pnpm-lock.yml'],
+    ['pnpm', 'pnpm-lock.yaml'],
     ['yarn', 'yarn.lock'],
   ])
 
