@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+### [0.4.2](https://github.com/jonz94/dependency-updater/compare/v0.4.1...v0.4.2) (2022-06-18)
+
+### Bug Fixes
+
+-   correctly detect pnpm ([4972fa2](https://github.com/jonz94/dependency-updater/commit/4972fa2701c355762cae40e0df49a57a5eb0fa9e))
+
 ### [0.4.1](https://github.com/jonz94/dependency-updater/compare/v0.4.0...v0.4.1) (2022-06-04)
 
 ### Bug Fixes
