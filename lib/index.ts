@@ -140,7 +140,7 @@ const run = async () => {
   const packageManagerCommand =
     process.platform === 'win32' ? `${packageManager}.cmd` : packageManager
 
-  console.log(`💡 Using ${packageManager} to upgrade packages`)
+  console.log(`📦 Using ${packageManager} to upgrade packages`)
 
   const updateCommandLookupTable = new Map([
     ['npm', 'install'],
