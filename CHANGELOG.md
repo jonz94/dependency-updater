@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+### [0.4.3](https://github.com/jonz94/dependency-updater/compare/v0.4.2...v0.4.3) (2022-07-08)
+
+### Features
+
+-   change emoji of package manager ([fdb16e2](https://github.com/jonz94/dependency-updater/commit/fdb16e2d3092eaf95582df2bee0bf7812cef89ff))
+
 ### [0.4.2](https://github.com/jonz94/dependency-updater/compare/v0.4.1...v0.4.2) (2022-06-18)
 
 ### Bug Fixes
