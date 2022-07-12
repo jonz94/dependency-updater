@@ -29,7 +29,7 @@
     "build": "tsc && npm run replace-version-placeholder",
     "clean": "rimraf dist",
     "exec": "npm run build && node .",
-    "format": "prettier --write .",
+    "fmt": "prettier --write .",
     "prepublishOnly": "npm run clean && npm run build",
     "release": "commit-and-tag-version",
     "replace-version-placeholder": "tsx scripts/replace-version-placeholder.ts"
