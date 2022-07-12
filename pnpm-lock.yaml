@@ -1,9 +1,11 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/command-exists': ^1.2.0
   '@types/minimist': ^1.2.2
   '@types/prettier': ^2.6.3
   '@types/prompts': ^2.0.14
+  command-exists: ^1.2.9
   commit-and-tag-version: ^10.0.1
   minimist: ^1.2.6
   prettier: ^2.7.1
@@ -17,11 +19,13 @@ specifiers:
   typescript: ^4.7.4
 
 dependencies:
+  command-exists: 1.2.9
   minimist: 1.2.6
   prompts: 2.4.2
   table: 6.8.0
 
 devDependencies:
+  '@types/command-exists': 1.2.0
   '@types/minimist': 1.2.2
   '@types/prettier': 2.6.3
   '@types/prompts': 2.0.14
@@ -102,6 +106,10 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
+    dev: true
+
+  /@types/command-exists/1.2.0:
+    resolution: {integrity: sha512-ugsxEJfsCuqMLSuCD4PIJkp5Uk2z6TCMRCgYVuhRo5cYQY3+1xXTQkSlPtkpGHuvWMjS2KTeVQXxkXRACMbM6A==}
     dev: true
 
   /@types/glob/7.2.0:
@@ -273,6 +281,10 @@ packages:
 
   /color-name/1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
+
+  /command-exists/1.2.9:
+    resolution: {integrity: sha512-LTQ/SGc+s0Xc0Fu5WaKnR0YiygZkm9eKFvyS+fRsU7/ZWFF8ykFM6Pc9aCVf1+xasOOZpO3BAVgVrKvsqKHV7w==}
+    dev: false
 
   /commit-and-tag-version/10.0.1:
     resolution: {integrity: sha512-LC+0L9HInxmNd9yp1GVuz5FOtQJP6hteofHC36FaRAniaaWaN7LzP4BDKxsxw7AkH3l4akWglpNICv8YUbyHsQ==}

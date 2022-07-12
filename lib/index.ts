@@ -3,6 +3,7 @@ import { readFile } from 'fs/promises'
 import prompts from 'prompts'
 import { table, TableUserConfig } from 'table'
 import { detectPackageManager } from './detect-package-manager'
+import { getCommandForWindows } from './get-command-for-windows'
 import { getOptions } from './setup-options'
 
 interface OutdatedPackagesJson {
@@ -26,7 +27,8 @@ const run = async () => {
   const packageJson = JSON.parse(packageJsonContent)
   const devDependencies = Object.keys(packageJson.devDependencies)
 
-  const npmCommand = process.platform === 'win32' ? 'npm.cmd' : 'npm'
+  const npmCommand =
+    process.platform === 'win32' ? getCommandForWindows('npm') : 'npm'
 
   const resultOfNpmOutdated = spawnSync(npmCommand, ['outdated', '--json'])
   const outdatedPackagesJson = JSON.parse(
@@ -138,7 +140,9 @@ const run = async () => {
 
   const packageManager = currentPackageManager || 'npm'
   const packageManagerCommand =
-    process.platform === 'win32' ? `${packageManager}.cmd` : packageManager
+    process.platform === 'win32'
+      ? getCommandForWindows(packageManager)
+      : packageManager
 
   console.log(`📦 Using ${packageManager} to upgrade packages`)
 
