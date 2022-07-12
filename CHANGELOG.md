@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+### [0.4.4](https://github.com/jonz94/dependency-updater/compare/v0.4.3...v0.4.4) (2022-07-12)
+
+### Bug Fixes
+
+-   resolve issues for windows ([609cfac](https://github.com/jonz94/dependency-updater/commit/609cfac7e12628d17cf0125949f98ac90f77f39a))
+
 ### [0.4.3](https://github.com/jonz94/dependency-updater/compare/v0.4.2...v0.4.3) (2022-07-08)
 
 ### Features
