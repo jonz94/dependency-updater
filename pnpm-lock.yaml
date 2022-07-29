@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@types/command-exists': ^1.2.0
   '@types/minimist': ^1.2.2
-  '@types/prettier': ^2.6.3
+  '@types/prettier': ^2.6.4
   '@types/prompts': ^2.0.14
   command-exists: ^1.2.9
   commit-and-tag-version: ^10.0.1
@@ -27,7 +27,7 @@ dependencies:
 devDependencies:
   '@types/command-exists': 1.2.0
   '@types/minimist': 1.2.2
-  '@types/prettier': 2.6.3
+  '@types/prettier': 2.6.4
   '@types/prompts': 2.0.14
   commit-and-tag-version: 10.0.1
   prettier: 2.7.1
@@ -135,8 +135,8 @@ packages:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
     dev: true
 
-  /@types/prettier/2.6.3:
-    resolution: {integrity: sha512-ymZk3LEC/fsut+/Q5qejp6R9O1rMxz3XaRHDV6kX8MrGAhOSPqVARbDi+EZvInBpw+BnCX3TD240byVkOfQsHg==}
+  /@types/prettier/2.6.4:
+    resolution: {integrity: sha512-fOwvpvQYStpb/zHMx0Cauwywu9yLDmzWiiQBC7gJyq5tYLUXFZvDG7VK1B7WBxxjBJNKFOZ0zLoOQn8vmATbhw==}
     dev: true
 
   /@types/prompts/2.0.14:
