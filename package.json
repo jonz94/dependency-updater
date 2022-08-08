@@ -47,7 +47,7 @@
     "@types/prompts": "^2.0.14",
     "commit-and-tag-version": "^10.0.1",
     "prettier": "^2.7.1",
-    "prettier-plugin-organize-imports": "^3.0.0",
+    "prettier-plugin-organize-imports": "^3.0.3",
     "prettier-plugin-packagejson": "^2.2.18",
     "replace-in-file": "^6.3.5",
     "rimraf": "^3.0.2",
