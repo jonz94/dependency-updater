@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/jonz94/dependency-updater.git"
   },
-  "license": "Unlicense",
+  "license": "0BSD",
   "author": {
     "name": "jonz94",
     "email": "jody16888@gmail.com"

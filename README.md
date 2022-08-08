@@ -2,7 +2,7 @@
 ===
 
 [![npm](https://img.shields.io/npm/v/@jonz94/dependency-updater.svg?style=flat-square)](https://www.npmjs.com/package/@jonz94/dependency-updater)
-![license: Unlicense](https://img.shields.io/github/license/jonz94/dependency-updater?style=flat-square)
+![license: 0BSD](https://img.shields.io/github/license/jonz94/dependency-updater?style=flat-square)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square)](https://conventionalcommits.org)
 
