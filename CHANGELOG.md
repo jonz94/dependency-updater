@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.5.0](https://github.com/jonz94/dependency-updater/compare/v0.4.4...v0.5.0) (2022-08-08)
+
+### Features
+
+-   change license to `0BSD` ([a9f2dd5](https://github.com/jonz94/dependency-updater/commit/a9f2dd56b64362c089a0651dc585599c16748c0a))
+
 ### [0.4.4](https://github.com/jonz94/dependency-updater/compare/v0.4.3...v0.4.4) (2022-07-12)
 
 ### Bug Fixes
