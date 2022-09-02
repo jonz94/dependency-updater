@@ -15,7 +15,7 @@ specifiers:
   replace-in-file: ^6.3.5
   rimraf: ^3.0.2
   table: ^6.8.0
-  tsx: ^3.8.2
+  tsx: ^3.9.0
   typescript: ^4.7.4
 
 dependencies:
@@ -35,7 +35,7 @@ devDependencies:
   prettier-plugin-packagejson: 2.2.18_prettier@2.7.1
   replace-in-file: 6.3.5
   rimraf: 3.0.2
-  tsx: 3.8.2
+  tsx: 3.9.0
   typescript: 4.7.4
 
 packages:
@@ -1784,8 +1784,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /tsx/3.8.2:
-    resolution: {integrity: sha512-Jf9izq3Youry5aEarspf6Gm+v/IE2A2xP7YVhtNH1VSCpM0jjACg7C3oD5rIoLBfXWGJSZj4KKC2bwE0TgLb2Q==}
+  /tsx/3.9.0:
+    resolution: {integrity: sha512-ofxsE+qjqCYYq4UBt5khglvb+ESgxef1YpuNcdQI92kvcAT2tZVrnSK3g4bRXTUhLmKHcC5q8vIZA47os/stng==}
     hasBin: true
     dependencies:
       '@esbuild-kit/cjs-loader': 2.3.3
