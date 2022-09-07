@@ -9,7 +9,7 @@ specifiers:
   commit-and-tag-version: ^10.1.0
   minimist: ^1.2.6
   prettier: ^2.7.1
-  prettier-plugin-organize-imports: ^3.1.0
+  prettier-plugin-organize-imports: ^3.1.1
   prettier-plugin-packagejson: ^2.2.18
   prompts: ^2.4.2
   replace-in-file: ^6.3.5
@@ -31,7 +31,7 @@ devDependencies:
   '@types/prompts': 2.0.14
   commit-and-tag-version: 10.1.0
   prettier: 2.7.1
-  prettier-plugin-organize-imports: 3.1.0_3izbkkkilozjwunt7rvlqzc6b4
+  prettier-plugin-organize-imports: 3.1.1_3izbkkkilozjwunt7rvlqzc6b4
   prettier-plugin-packagejson: 2.2.18_prettier@2.7.1
   replace-in-file: 6.3.5
   rimraf: 3.0.2
@@ -1400,10 +1400,10 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /prettier-plugin-organize-imports/3.1.0_3izbkkkilozjwunt7rvlqzc6b4:
-    resolution: {integrity: sha512-eufD78FKdkDTyyY9oKxuwEMrfz4/AXrGeyeyjqiRtSBr01DAdGFTq4SgIKvLeqlLkq+ZPJ2H0+BK0e6flRUwJQ==}
+  /prettier-plugin-organize-imports/3.1.1_3izbkkkilozjwunt7rvlqzc6b4:
+    resolution: {integrity: sha512-6bHIQzybqA644h0WGUW3gpWEVbMBvzui5wCMRBi7qA++d5ov2xjjfDk8pxJJ/ardfZrGAwizKMq/fQMFdJ+0Zw==}
     peerDependencies:
-      '@volar/vue-typescript': '>=0.39.0'
+      '@volar/vue-typescript': '>=0.40.2'
       prettier: '>=2.0'
       typescript: '>=2.9'
     peerDependenciesMeta:
