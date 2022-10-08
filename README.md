@@ -6,8 +6,6 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square)](https://conventionalcommits.org)
 
-> still in development
-
 A CLI tool to update Node.js dependencies automatically
 
 ![demo](https://i.imgur.com/hzSsBcD.gif)
