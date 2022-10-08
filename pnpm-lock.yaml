@@ -10,7 +10,7 @@ specifiers:
   minimist: ^1.2.6
   prettier: ^2.7.1
   prettier-plugin-organize-imports: ^3.1.1
-  prettier-plugin-packagejson: ^2.2.18
+  prettier-plugin-packagejson: ^2.3.0
   prompts: ^2.4.2
   replace-in-file: ^6.3.5
   rimraf: ^3.0.2
@@ -32,7 +32,7 @@ devDependencies:
   commit-and-tag-version: 10.1.0
   prettier: 2.7.1
   prettier-plugin-organize-imports: 3.1.1_3izbkkkilozjwunt7rvlqzc6b4
-  prettier-plugin-packagejson: 2.2.18_prettier@2.7.1
+  prettier-plugin-packagejson: 2.3.0_prettier@2.7.1
   replace-in-file: 6.3.5
   rimraf: 3.0.2
   tsx: 3.9.0
@@ -1414,10 +1414,13 @@ packages:
       typescript: 4.8.2
     dev: true
 
-  /prettier-plugin-packagejson/2.2.18_prettier@2.7.1:
-    resolution: {integrity: sha512-iBjQ3IY6IayFrQHhXvg+YvKprPUUiIJ04Vr9+EbeQPfwGajznArIqrN33c5bi4JcIvmLHGROIMOm9aYakJj/CA==}
+  /prettier-plugin-packagejson/2.3.0_prettier@2.7.1:
+    resolution: {integrity: sha512-2SAPMMk1UDkqsB7DifWKcwCm6VC52JXMrzLHfbcQHJRWhRCj9zziOy+s+2XOyPBeyqFqS+A/1IKzOrxKFTo6pw==}
     peerDependencies:
       prettier: '>= 1.16.0'
+    peerDependenciesMeta:
+      prettier:
+        optional: true
     dependencies:
       prettier: 2.7.1
       sort-package-json: 1.57.0
