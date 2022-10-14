@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+### [0.5.2](https://github.com/jonz94/dependency-updater/compare/v0.5.1...v0.5.2) (2022-10-14)
+
+-   update `minimist` to 1.2.7
+
 ### [0.5.1](https://github.com/jonz94/dependency-updater/compare/v0.5.0...v0.5.1) (2022-10-08)
 
 -   version bump only for upgrading dependencies
