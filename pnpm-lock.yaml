@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@antfu/ni': ^0.18.2
   '@types/command-exists': ^1.2.0
   '@types/minimist': ^1.2.2
   '@types/prettier': ^2.7.1
@@ -19,6 +20,7 @@ specifiers:
   typescript: ^4.8.4
 
 dependencies:
+  '@antfu/ni': 0.18.2
   command-exists: 1.2.9
   minimist: 1.2.7
   prompts: 2.4.2
@@ -39,6 +41,11 @@ devDependencies:
   typescript: 4.8.4
 
 packages:
+
+  /@antfu/ni/0.18.2:
+    resolution: {integrity: sha512-OZalxEGupqCd8hKV2wyT5IHQTx1BR5/iXZEbseLpSdgcSn8fLjLOqi+LLhLly0a1XIkCAUeknV5/JXvMbjIstA==}
+    hasBin: true
+    dev: false
 
   /@babel/code-frame/7.16.7:
     resolution: {integrity: sha512-iAXqUn8IIeBTNd72xsFlgaXHkMBMt6y4HJp1tIaK465CWLT/fG1aqB7ykr95gHHmlBdGbFeWWfyB4NJJ0nmeIg==}

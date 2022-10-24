@@ -35,6 +35,7 @@
     "replace-version-placeholder": "tsx scripts/replace-version-placeholder.ts"
   },
   "dependencies": {
+    "@antfu/ni": "^0.18.2",
     "command-exists": "^1.2.9",
     "minimist": "^1.2.7",
     "prompts": "^2.4.2",
