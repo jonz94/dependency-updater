@@ -16,7 +16,7 @@ specifiers:
   rimraf: ^3.0.2
   table: ^6.8.1
   tsx: ^3.12.1
-  typescript: ^4.8.4
+  typescript: ^4.9.3
 
 dependencies:
   command-exists: 1.2.9
@@ -31,12 +31,12 @@ devDependencies:
   '@types/prompts': 2.4.1
   commit-and-tag-version: 10.1.0
   prettier: 2.8.0
-  prettier-plugin-organize-imports: 3.2.1_jc3kjthrexpo2i3acrbjrjqijq
+  prettier-plugin-organize-imports: 3.2.1_brpckf4sz23pco3jyty2eys3iq
   prettier-plugin-packagejson: 2.3.0_prettier@2.8.0
   replace-in-file: 6.3.5
   rimraf: 3.0.2
   tsx: 3.12.1
-  typescript: 4.8.4
+  typescript: 4.9.3
 
 packages:
 
@@ -1420,7 +1420,7 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /prettier-plugin-organize-imports/3.2.1_jc3kjthrexpo2i3acrbjrjqijq:
+  /prettier-plugin-organize-imports/3.2.1_brpckf4sz23pco3jyty2eys3iq:
     resolution: {integrity: sha512-bty7C2Ecard5EOXirtzeCAqj4FU4epeuWrQt/Z+sh8UVEpBlBZ3m3KNPz2kFu7KgRTQx/C9o4/TdquPD1jOqjQ==}
     peerDependencies:
       '@volar/vue-language-plugin-pug': ^1.0.4
@@ -1434,7 +1434,7 @@ packages:
         optional: true
     dependencies:
       prettier: 2.8.0
-      typescript: 4.8.4
+      typescript: 4.9.3
     dev: true
 
   /prettier-plugin-packagejson/2.3.0_prettier@2.8.0:
@@ -1840,8 +1840,8 @@ packages:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
     dev: true
 
-  /typescript/4.8.4:
-    resolution: {integrity: sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==}
+  /typescript/4.9.3:
+    resolution: {integrity: sha512-CIfGzTelbKNEnLpLdGFgdyKhG23CKdKgQPOBc+OUNrkJ2vr+KSzsSV5kq5iWhEQbok+quxgGzrAtGWCyU7tHnA==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
