@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@types/command-exists': ^1.2.0
   '@types/minimist': ^1.2.2
-  '@types/node': 18.11.14
+  '@types/node': ^18.11.18
   '@types/prettier': ^2.7.2
   '@types/prompts': 2.4.2
   command-exists: ^1.2.9
@@ -28,7 +28,7 @@ dependencies:
 devDependencies:
   '@types/command-exists': 1.2.0
   '@types/minimist': 1.2.2
-  '@types/node': 18.11.14
+  '@types/node': 18.11.18
   '@types/prettier': 2.7.2
   '@types/prompts': 2.4.2
   commit-and-tag-version: 10.1.0
@@ -148,8 +148,8 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: true
 
-  /@types/node/18.11.14:
-    resolution: {integrity: sha512-0KXV57tENYmmJMl+FekeW9V3O/rlcqGQQJ/hNh9r8pKIj304pskWuEd8fCyNT86g/TpO0gcOTiLzsHLEURFMIQ==}
+  /@types/node/18.11.18:
+    resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -163,7 +163,7 @@ packages:
   /@types/prompts/2.4.2:
     resolution: {integrity: sha512-TwNx7qsjvRIUv/BCx583tqF5IINEVjCNqg9ofKHRlSoUHE62WBHrem4B1HGXcIrG511v29d1kJ9a/t2Esz7MIg==}
     dependencies:
-      '@types/node': 18.11.14
+      '@types/node': 18.11.18
       kleur: 3.0.3
     dev: true
 
