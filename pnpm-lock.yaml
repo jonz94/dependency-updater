@@ -14,7 +14,7 @@ specifiers:
   prettier-plugin-packagejson: ^2.4.0
   prompts: ^2.4.2
   replace-in-file: ^6.3.5
-  rimraf: ^3.0.2
+  rimraf: ^4.1.0
   table: ^6.8.1
   tsx: ^3.12.2
   typescript: 4.9.4
@@ -36,7 +36,7 @@ devDependencies:
   prettier-plugin-organize-imports: 3.2.2_uhxzhaxu465qzax2tftpee5s7i
   prettier-plugin-packagejson: 2.4.0_prettier@2.8.3
   replace-in-file: 6.3.5
-  rimraf: 3.0.2
+  rimraf: 4.1.0
   tsx: 3.12.2
   typescript: 4.9.4
 
@@ -1648,11 +1648,10 @@ packages:
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
     dev: true
 
-  /rimraf/3.0.2:
-    resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+  /rimraf/4.1.0:
+    resolution: {integrity: sha512-ZJdkUR5/dRrRJHdcSKJLrpRn6tVjl9ALxd4yrTCxFsMpjQNzwHF6GLqMsuEzEYIXxHlFPDSk21Vr8VPuFBEz0g==}
+    engines: {node: '>=14'}
     hasBin: true
-    dependencies:
-      glob: 7.2.3
     dev: true
 
   /run-parallel/1.2.0:
