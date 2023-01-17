@@ -7,7 +7,7 @@ specifiers:
   '@types/prettier': ^2.7.2
   '@types/prompts': 2.4.2
   command-exists: ^1.2.9
-  commit-and-tag-version: ^10.1.0
+  commit-and-tag-version: ^11.0.0
   minimist: ^1.2.7
   prettier: 2.8.3
   prettier-plugin-organize-imports: ^3.2.2
@@ -31,7 +31,7 @@ devDependencies:
   '@types/node': 18.11.18
   '@types/prettier': 2.7.2
   '@types/prompts': 2.4.2
-  commit-and-tag-version: 10.1.0
+  commit-and-tag-version: 11.0.0
   prettier: 2.8.3
   prettier-plugin-organize-imports: 3.2.2_uhxzhaxu465qzax2tftpee5s7i
   prettier-plugin-packagejson: 2.4.0_prettier@2.8.3
@@ -303,15 +303,15 @@ packages:
     resolution: {integrity: sha512-LTQ/SGc+s0Xc0Fu5WaKnR0YiygZkm9eKFvyS+fRsU7/ZWFF8ykFM6Pc9aCVf1+xasOOZpO3BAVgVrKvsqKHV7w==}
     dev: false
 
-  /commit-and-tag-version/10.1.0:
-    resolution: {integrity: sha512-np3lR90bqFfOmxJtgqQc5UVBKFNdO06fRRTZm128QhEQ/ilXm3s/PXxZWheq2PUn5Qac2z+dWJJa+OqjxYsOpA==}
+  /commit-and-tag-version/11.0.0:
+    resolution: {integrity: sha512-HcIvYG5dmJk99PyPegdAzMfa1Es6t/FCAfJDQP+5xN+3R3t4qCG/kz704kQv1e6YgHyNk4MwRiGfN/kAua8k+Q==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
       chalk: 2.4.2
       conventional-changelog: 3.1.25
       conventional-changelog-config-spec: 2.1.0
-      conventional-changelog-conventionalcommits: 4.6.3
+      conventional-changelog-conventionalcommits: 5.0.0
       conventional-recommended-bump: 6.1.0
       detect-indent: 6.1.0
       detect-newline: 3.1.0
@@ -373,6 +373,15 @@ packages:
 
   /conventional-changelog-conventionalcommits/4.6.3:
     resolution: {integrity: sha512-LTTQV4fwOM4oLPad317V/QNQ1FY4Hju5qeBIM1uTHbrnCE+Eg4CdRZ3gO2pUeR+tzWdp80M2j3qFFEDWVqOV4g==}
+    engines: {node: '>=10'}
+    dependencies:
+      compare-func: 2.0.0
+      lodash: 4.17.21
+      q: 1.5.1
+    dev: true
+
+  /conventional-changelog-conventionalcommits/5.0.0:
+    resolution: {integrity: sha512-lCDbA+ZqVFQGUj7h9QBKoIpLhl8iihkO0nCTyRNzuXtcd7ubODpYB04IFy31JloiJgG0Uovu8ot8oxRzn7Nwtw==}
     engines: {node: '>=10'}
     dependencies:
       compare-func: 2.0.0
@@ -1800,6 +1809,7 @@ packages:
 
   /stringify-package/1.0.1:
     resolution: {integrity: sha512-sa4DUQsYciMP1xhKWGuFM04fB0LG/9DlluZoSVywUMRNvzid6XucHK0/90xGxRoHrAaROrcHK1aPKaijCtSrhg==}
+    deprecated: This module is not used anymore, and has been replaced by @npmcli/package-json
     dev: true
 
   /strip-ansi/6.0.1:
