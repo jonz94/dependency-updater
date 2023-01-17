@@ -4,7 +4,7 @@ specifiers:
   '@types/command-exists': ^1.2.0
   '@types/minimist': ^1.2.2
   '@types/node': 18.11.14
-  '@types/prettier': ^2.7.1
+  '@types/prettier': ^2.7.2
   '@types/prompts': 2.4.2
   command-exists: ^1.2.9
   commit-and-tag-version: ^10.1.0
@@ -29,7 +29,7 @@ devDependencies:
   '@types/command-exists': 1.2.0
   '@types/minimist': 1.2.2
   '@types/node': 18.11.14
-  '@types/prettier': 2.7.1
+  '@types/prettier': 2.7.2
   '@types/prompts': 2.4.2
   commit-and-tag-version: 10.1.0
   prettier: 2.8.1
@@ -155,8 +155,8 @@ packages:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
     dev: true
 
-  /@types/prettier/2.7.1:
-    resolution: {integrity: sha512-ri0UmynRRvZiiUJdiz38MmIblKK+oH30MztdBVR95dv/Ubw6neWSb8u1XpRb72L4qsZOhz+L+z9JD40SJmfWow==}
+  /@types/prettier/2.7.2:
+    resolution: {integrity: sha512-KufADq8uQqo1pYKVIYzfKbJfBAc0sOeXqGbFaSpv8MRmC/zXgowNZmFcbngndGk922QDmOASEXUZCaY48gs4cg==}
     dev: true
 
   /@types/prompts/2.4.2:
