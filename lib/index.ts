@@ -110,15 +110,17 @@ const run = async () => {
 
   console.log(table(tableData, tableConfig))
 
-  const { shouldUpdateAllPackages } = await prompts({
-    type: 'confirm',
-    name: 'shouldUpdateAllPackages',
-    message: ' Update all packages?',
-    initial: true,
-  })
+  if (!options.yes) {
+    const { shouldUpdateAllPackages } = await prompts({
+      type: 'confirm',
+      name: 'shouldUpdateAllPackages',
+      message: ' Update all packages?',
+      initial: true,
+    })
 
-  if (shouldUpdateAllPackages === false) {
-    process.exit(0)
+    if (shouldUpdateAllPackages === false) {
+      process.exit(0)
+    }
   }
 
   const currentPackageManager = detectPackageManager()

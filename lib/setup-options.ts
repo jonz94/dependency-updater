@@ -2,6 +2,7 @@ import parseArgs from 'minimist'
 import { argv } from 'process'
 
 interface Options {
+  yes: boolean | string
   emoji: boolean | string
   enableGitCommit: boolean
   gitCommitType: string
@@ -10,6 +11,7 @@ interface Options {
 }
 
 const defaultOptions: Options = {
+  yes: false,
   emoji: false,
   enableGitCommit: true,
   gitCommitType: 'build',
@@ -18,18 +20,25 @@ const defaultOptions: Options = {
 }
 
 const getOptions = () => {
-  const { emoji, enableGitCommit, gitCommitType, gitCommitVerb, showFrom } =
-    parseArgs(argv.slice(2), {
-      alias: {
-        'git-commit': 'enableGitCommit',
-        'git-commit-type': 'gitCommitType',
-        'git-commit-verb': 'gitCommitVerb',
-        'show-from': 'showFrom',
-      },
-    }) as Partial<Options>
+  const {
+    yes,
+    emoji,
+    enableGitCommit,
+    gitCommitType,
+    gitCommitVerb,
+    showFrom,
+  } = parseArgs(argv.slice(2), {
+    alias: {
+      'git-commit': 'enableGitCommit',
+      'git-commit-type': 'gitCommitType',
+      'git-commit-verb': 'gitCommitVerb',
+      'show-from': 'showFrom',
+    },
+  }) as Partial<Options>
 
   return {
     ...defaultOptions,
+    ...(yes !== undefined && { yes }),
     ...(emoji !== undefined && { emoji }),
     ...(enableGitCommit !== undefined && { enableGitCommit }),
     ...(typeof gitCommitType === 'string' && { gitCommitType }),
