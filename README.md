@@ -32,7 +32,7 @@ Features/TODOs
 Installation
 ---
 
-```console
+```shell
 npm i -g @jonz94/dependency-updater
 ```
 
@@ -41,12 +41,12 @@ Usage
 
 - Execute `dependency-updater` command inside the project root directory
 
-```console
+```shell
 dependency-updater
 ```
 
 - If you don't want to install the package globally, you can use following command:
 
-```console
+```shell
 npx @jonz94/dependency-updater@latest
 ```
