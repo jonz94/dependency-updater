@@ -7,7 +7,7 @@ specifiers:
   '@types/prettier': ^2.7.2
   '@types/prompts': ^2.4.2
   command-exists: ^1.2.9
-  commit-and-tag-version: ^11.0.0
+  commit-and-tag-version: ^11.1.0
   minimist: ^1.2.8
   prettier: ^2.8.4
   prettier-plugin-organize-imports: ^3.2.2
@@ -31,7 +31,7 @@ devDependencies:
   '@types/node': 18.14.2
   '@types/prettier': 2.7.2
   '@types/prompts': 2.4.2
-  commit-and-tag-version: 11.0.0
+  commit-and-tag-version: 11.1.0
   prettier: 2.8.4
   prettier-plugin-organize-imports: 3.2.2_silln3pw57har7jydmecgzoypa
   prettier-plugin-packagejson: 2.4.2_prettier@2.8.4
@@ -312,8 +312,8 @@ packages:
     resolution: {integrity: sha512-LTQ/SGc+s0Xc0Fu5WaKnR0YiygZkm9eKFvyS+fRsU7/ZWFF8ykFM6Pc9aCVf1+xasOOZpO3BAVgVrKvsqKHV7w==}
     dev: false
 
-  /commit-and-tag-version/11.0.0:
-    resolution: {integrity: sha512-HcIvYG5dmJk99PyPegdAzMfa1Es6t/FCAfJDQP+5xN+3R3t4qCG/kz704kQv1e6YgHyNk4MwRiGfN/kAua8k+Q==}
+  /commit-and-tag-version/11.1.0:
+    resolution: {integrity: sha512-sVia6zoGNJGC69KhGEautLrShVhuYMhLGKt56mRzIkFJob78n+9DWNZEc7D7nZ1gjXJiAMgIqn2qHk/p3FuIPw==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
