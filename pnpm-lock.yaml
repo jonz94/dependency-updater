@@ -9,7 +9,7 @@ specifiers:
   command-exists: ^1.2.9
   commit-and-tag-version: ^11.2.1
   minimist: ^1.2.8
-  prettier: ^2.8.4
+  prettier: ^2.8.7
   prettier-plugin-organize-imports: ^3.2.2
   prettier-plugin-packagejson: ^2.4.3
   prompts: ^2.4.2
@@ -32,9 +32,9 @@ devDependencies:
   '@types/prettier': 2.7.2
   '@types/prompts': 2.4.4
   commit-and-tag-version: 11.2.1
-  prettier: 2.8.4
-  prettier-plugin-organize-imports: 3.2.2_silln3pw57har7jydmecgzoypa
-  prettier-plugin-packagejson: 2.4.3_prettier@2.8.4
+  prettier: 2.8.7
+  prettier-plugin-organize-imports: 3.2.2_erhqnhond52bpeyvirmp3gjrp4
+  prettier-plugin-packagejson: 2.4.3_prettier@2.8.7
   replace-in-file: 6.3.5
   rimraf: 4.1.2
   tsx: 3.12.3
@@ -1499,7 +1499,7 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /prettier-plugin-organize-imports/3.2.2_silln3pw57har7jydmecgzoypa:
+  /prettier-plugin-organize-imports/3.2.2_erhqnhond52bpeyvirmp3gjrp4:
     resolution: {integrity: sha512-e97lE6odGSiHonHJMTYC0q0iLXQyw0u5z/PJpvP/3vRy6/Zi9kLBwFAbEGjDzIowpjQv8b+J04PDamoUSQbzGA==}
     peerDependencies:
       '@volar/vue-language-plugin-pug': ^1.0.4
@@ -1512,11 +1512,11 @@ packages:
       '@volar/vue-typescript':
         optional: true
     dependencies:
-      prettier: 2.8.4
+      prettier: 2.8.7
       typescript: 4.9.5
     dev: true
 
-  /prettier-plugin-packagejson/2.4.3_prettier@2.8.4:
+  /prettier-plugin-packagejson/2.4.3_prettier@2.8.7:
     resolution: {integrity: sha512-kPeeviJiwy0BgOSk7No8NmzzXfW4R9FYWni6ziA5zc1kGVVrKnBzMZdu2TUhI+I7h8/5Htt3vARYOk7KKJTTNQ==}
     peerDependencies:
       prettier: '>= 1.16.0'
@@ -1524,13 +1524,13 @@ packages:
       prettier:
         optional: true
     dependencies:
-      prettier: 2.8.4
+      prettier: 2.8.7
       sort-package-json: 2.4.1
       synckit: 0.8.5
     dev: true
 
-  /prettier/2.8.4:
-    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
+  /prettier/2.8.7:
+    resolution: {integrity: sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
