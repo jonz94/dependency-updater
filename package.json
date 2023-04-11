@@ -45,7 +45,7 @@
     "@types/minimist": "^1.2.2",
     "@types/node": "^18.15.11",
     "@types/prettier": "^2.7.2",
-    "@types/prompts": "^2.4.2",
+    "@types/prompts": "^2.4.4",
     "commit-and-tag-version": "^11.1.0",
     "prettier": "^2.8.4",
     "prettier-plugin-organize-imports": "^3.2.2",
