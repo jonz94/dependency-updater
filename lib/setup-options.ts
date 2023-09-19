@@ -1,5 +1,5 @@
 import parseArgs from 'minimist'
-import { argv } from 'process'
+import { argv } from 'node:process'
 
 interface Options {
   yes: boolean | string

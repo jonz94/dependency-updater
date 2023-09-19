@@ -1,4 +1,4 @@
-import { existsSync } from 'fs'
+import { existsSync } from 'node:fs'
 
 const detectPackageManager = () => {
   let currentPackageManager: string | null = null

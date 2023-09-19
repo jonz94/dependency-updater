@@ -1,5 +1,5 @@
-import { spawnSync } from 'child_process'
-import { readFile } from 'fs/promises'
+import { spawnSync } from 'node:child_process'
+import { readFile } from 'node:fs/promises'
 import prompts from 'prompts'
 import { table, TableUserConfig } from 'table'
 import { detectPackageManager } from './detect-package-manager'
