@@ -41,7 +41,7 @@
     "table": "^6.8.1"
   },
   "devDependencies": {
-    "@types/command-exists": "^1.2.0",
+    "@types/command-exists": "^1.2.1",
     "@types/minimist": "^1.2.2",
     "@types/node": "^18.15.11",
     "@types/prettier": "^2.7.2",
