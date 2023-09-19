@@ -1,14 +1,9 @@
 /** @type {import('prettier').Config} */
-module.exports = {
-  printWidth: 80,
+const config = {
   semi: false,
   singleQuote: true,
-  trailingComma: 'all',
 
-  plugins: [
-    require('prettier-plugin-packagejson'),
-    require('prettier-plugin-organize-imports'),
-  ],
+  plugins: ['prettier-plugin-packagejson', 'prettier-plugin-organize-imports'],
 
   overrides: [
     {
@@ -19,3 +14,5 @@ module.exports = {
     },
   ],
 }
+
+export default config
