@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.6.1](https://github.com/jonz94/dependency-updater/compare/v0.6.0...v0.6.1) (2023-09-19)
+
+-   update dependencies to latest version
+
 ## [0.6.0](https://github.com/jonz94/dependency-updater/compare/v0.5.2...v0.6.0) (2023-02-28)
 
 ### Features
