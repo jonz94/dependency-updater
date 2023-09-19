@@ -26,11 +26,11 @@
     "lib"
   ],
   "scripts": {
-    "build": "tsc && npm run replace-version-placeholder",
+    "build": "tsc && pnpm run replace-version-placeholder",
     "clean": "rimraf dist",
-    "exec": "npm run build && node .",
+    "exec": "pnpm run build && node .",
     "fmt": "prettier --write .",
-    "prepublishOnly": "npm run clean && npm run build",
+    "prepublishOnly": "pnpm run clean && pnpm run build",
     "release": "commit-and-tag-version",
     "replace-version-placeholder": "tsx scripts/replace-version-placeholder.ts"
   },
