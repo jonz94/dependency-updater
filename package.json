@@ -43,7 +43,7 @@
   "devDependencies": {
     "@types/command-exists": "^1.2.1",
     "@types/minimist": "^1.2.3",
-    "@types/node": "^18.17.17",
+    "@types/node": "^18.18.0",
     "@types/prompts": "^2.4.4",
     "commit-and-tag-version": "^11.2.3",
     "prettier": "^3.0.3",
