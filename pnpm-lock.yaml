@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^2.4.7
     version: 2.4.7
   commit-and-tag-version:
-    specifier: ^11.2.3
-    version: 11.2.3
+    specifier: ^11.3.0
+    version: 11.3.0
   prettier:
     specifier: ^3.0.3
     version: 3.0.3
@@ -538,8 +538,8 @@ packages:
     resolution: {integrity: sha512-LTQ/SGc+s0Xc0Fu5WaKnR0YiygZkm9eKFvyS+fRsU7/ZWFF8ykFM6Pc9aCVf1+xasOOZpO3BAVgVrKvsqKHV7w==}
     dev: false
 
-  /commit-and-tag-version@11.2.3:
-    resolution: {integrity: sha512-shL/Z7Di/4nGEDRd8NlixihLI6VwzADcUeGdE24pLJKyxMa/ApnIq2cHyT4A2P87IR0scFj29EuXPQQFwxszkw==}
+  /commit-and-tag-version@11.3.0:
+    resolution: {integrity: sha512-hh3wV9pcuQRuUNdPZ3TfF29VjgbkWJxJ6sQKDls1k71hMZHTjbsdPFbr2gBTUUwW/ArGGZNxejWDTomPZtEq/g==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
