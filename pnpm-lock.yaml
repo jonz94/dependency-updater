@@ -20,8 +20,8 @@ dependencies:
 
 devDependencies:
   '@types/command-exists':
-    specifier: ^1.2.1
-    version: 1.2.1
+    specifier: ^1.2.2
+    version: 1.2.2
   '@types/minimist':
     specifier: ^1.2.3
     version: 1.2.3
@@ -335,8 +335,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@types/command-exists@1.2.1:
-    resolution: {integrity: sha512-N+I0Iho/m1c63+g3E7ZgfGnxGZIRAoj9TUU7j8NFCt+RowqpTLQanLdcfzrCyiHtdEI2MKF1vLMgdyE5rETSnw==}
+  /@types/command-exists@1.2.2:
+    resolution: {integrity: sha512-1qKPTkjLmghE5C7UUHXGcLaG8MNftchOcLAIryUXNKahRO5beS+iJ9rIL8XD4+B8K2phjYUsPQDox1FRX4KMTQ==}
     dev: true
 
   /@types/minimist@1.2.3:
