@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@types/command-exists": "^1.2.2",
-    "@types/minimist": "^1.2.3",
+    "@types/minimist": "^1.2.4",
     "@types/node": "^18.18.0",
     "@types/prompts": "^2.4.5",
     "commit-and-tag-version": "^11.2.3",
