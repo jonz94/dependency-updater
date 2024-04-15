@@ -44,7 +44,7 @@
     "@types/command-exists": "^1.2.3",
     "@types/minimist": "^1.2.5",
     "@types/node": "^18.19.31",
-    "@types/prompts": "^2.4.7",
+    "@types/prompts": "^2.4.9",
     "commit-and-tag-version": "^11.3.0",
     "prettier": "^3.0.3",
     "prettier-plugin-organize-imports": "^3.2.3",
