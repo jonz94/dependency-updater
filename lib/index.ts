@@ -182,8 +182,8 @@ const run = async () => {
         emojiOption === true
           ? '👍 '
           : emojiOption && emojiOption !== ''
-          ? `${emojiOption} `
-          : ''
+            ? `${emojiOption} `
+            : ''
       const scope = isDevDependency ? 'dev-deps' : 'deps'
       const from = showFrom ? ` from ${currentVersion}` : ''
       const gitMessage = `${emoji}${type}(${scope}): ${verb} \`${packageName}\`${from} to ${wantedVersion}`
