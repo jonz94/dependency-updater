@@ -12,6 +12,12 @@ const config = {
         printWidth: 1,
       },
     },
+    {
+      files: 'tsconfig.json',
+      options: {
+        parser: 'jsonc',
+      },
+    },
   ],
 }
 
