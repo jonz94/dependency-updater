@@ -52,7 +52,7 @@
     "replace-in-file": "^7.2.0",
     "rimraf": "^5.0.9",
     "tsx": "^3.14.0",
-    "typescript": "~5.2.2"
+    "typescript": "~5.5.4"
   },
   "publishConfig": {
     "access": "public"
