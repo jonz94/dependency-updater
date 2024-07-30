@@ -28,8 +28,8 @@ importers:
         specifier: ^1.2.5
         version: 1.2.5
       '@types/node':
-        specifier: ^18.19.42
-        version: 18.19.42
+        specifier: ^20.14.13
+        version: 20.14.13
       '@types/prompts':
         specifier: ^2.4.9
         version: 2.4.9
@@ -240,6 +240,9 @@ packages:
 
   '@types/node@18.19.42':
     resolution: {integrity: sha512-d2ZFc/3lnK2YCYhos8iaNIYu9Vfhr92nHiyJHRltXWjXUBjEE+A4I58Tdbnw4VhggSW+2j5y5gTrLs4biNnubg==}
+
+  '@types/node@20.14.13':
+    resolution: {integrity: sha512-+bHoGiZb8UiQ0+WEtmph2IWQCjIqg8MDZMAV+ppRRhUZnquF5mQkP/9vpSwJClEiSM/C7fZZExPzfU0vJTyp8w==}
 
   '@types/normalize-package-data@2.4.3':
     resolution: {integrity: sha512-ehPtgRgaULsFG8x0NeYJvmyH1hmlfsNLujHe9dQEia/7MAJYdzMSi19JtchUHjmBA6XC/75dK55mzZH+RyieSg==}
@@ -1408,6 +1411,10 @@ snapshots:
   '@types/minimist@1.2.5': {}
 
   '@types/node@18.19.42':
+    dependencies:
+      undici-types: 5.26.5
+
+  '@types/node@20.14.13':
     dependencies:
       undici-types: 5.26.5
 
