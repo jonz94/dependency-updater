@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.7.0](https://github.com/jonz94/dependency-updater/compare/v0.6.1...v0.7.0) (2024-07-30)
+
+### Bug Fixes
+
+-   migrate usage for `replace-in-file` v8 ([7a38147](https://github.com/jonz94/dependency-updater/commit/7a38147334eeb8693750248a1f3e324220abcebd))
+
 ## [0.6.1](https://github.com/jonz94/dependency-updater/compare/v0.6.0...v0.6.1) (2023-09-19)
 
 -   update dependencies to latest version
