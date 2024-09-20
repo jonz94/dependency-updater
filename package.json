@@ -48,7 +48,7 @@
     "commit-and-tag-version": "^12.4.4",
     "prettier": "^3.3.3",
     "prettier-plugin-organize-imports": "^4.0.0",
-    "prettier-plugin-packagejson": "^2.5.1",
+    "prettier-plugin-packagejson": "^2.5.2",
     "replace-in-file": "^8.1.0",
     "rimraf": "^6.0.1",
     "tsx": "^4.16.2",
