@@ -3,7 +3,11 @@ import { readFile } from 'node:fs/promises'
 import prompts from 'prompts'
 import { table, TableUserConfig } from 'table'
 import { getCommandForWindows } from './get-command-for-windows'
-import { detectPackageManager, getUpdateCommand } from './package-manager'
+import {
+  detectPackageManager,
+  getDevDependencyFlag,
+  getUpdateCommand,
+} from './package-manager'
 import { getOptions } from './setup-options'
 
 interface OutdatedPackagesJson {
@@ -157,9 +161,10 @@ const run = async () => {
     console.log(`👍 Updating ${packageName} to ${wantedVersion}...`)
 
     const isDevDependency = devDependencies.includes(packageName)
+    const devDependencyFlag = getDevDependencyFlag(packageManager)
 
     const args = isDevDependency
-      ? [updateCommand, '-D', `${packageName}@^${wantedVersion}`]
+      ? [updateCommand, devDependencyFlag, `${packageName}@^${wantedVersion}`]
       : [updateCommand, `${packageName}@^${wantedVersion}`]
 
     spawnSync(packageManagerCommand, args)

@@ -1,6 +1,6 @@
 import { existsSync } from 'node:fs'
 
-export type SupportedPackageManager = 'npm' | 'pnpm' | 'yarn'
+export type SupportedPackageManager = 'npm' | 'pnpm' | 'yarn' | 'bun'
 export type UpdateCommand = 'install' | 'add'
 
 export function detectPackageManager() {
@@ -10,6 +10,7 @@ export function detectPackageManager() {
     npm: 'package-lock.json',
     pnpm: 'pnpm-lock.yaml',
     yarn: 'yarn.lock',
+    bun: 'bun.lockb',
   } as const
 
   for (const [packageManager, lockFile] of Object.entries(lookupTable)) {
@@ -29,7 +30,12 @@ export function getUpdateCommand(packageManager: SupportedPackageManager) {
     npm: 'install',
     pnpm: 'add',
     yarn: 'add',
+    bun: 'add',
   } as const satisfies Record<SupportedPackageManager, UpdateCommand>
 
   return updateCommandLookupTable[packageManager]
+}
+
+export function getDevDependencyFlag(packageManager: SupportedPackageManager) {
+  return packageManager === 'bun' ? '-d' : '-D'
 }
