@@ -2,8 +2,8 @@ import { spawnSync } from 'node:child_process'
 import { readFile } from 'node:fs/promises'
 import prompts from 'prompts'
 import { table, TableUserConfig } from 'table'
-import { detectPackageManager } from './detect-package-manager'
 import { getCommandForWindows } from './get-command-for-windows'
+import { detectPackageManager, getUpdateCommand } from './package-manager'
 import { getOptions } from './setup-options'
 
 interface OutdatedPackagesJson {
@@ -140,7 +140,7 @@ const run = async () => {
     }
   }
 
-  const packageManager = currentPackageManager || 'npm'
+  const packageManager = currentPackageManager ?? 'npm'
   const packageManagerCommand =
     process.platform === 'win32'
       ? getCommandForWindows(packageManager)
@@ -148,13 +148,7 @@ const run = async () => {
 
   console.log(`📦 Using ${packageManager} to upgrade packages`)
 
-  const updateCommandLookupTable = new Map([
-    ['npm', 'install'],
-    ['pnpm', 'add'],
-    ['yarn', 'add'],
-  ])
-
-  const updateCommand = updateCommandLookupTable.get(packageManager) as string
+  const updateCommand = getUpdateCommand(packageManager)
 
   autoUpdatablePackages.forEach((packageName) => {
     const { current: currentVersion, wanted: wantedVersion } =
