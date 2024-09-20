@@ -1,6 +1,6 @@
 {
   "name": "@jonz94/dependency-updater",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "A CLI tool to bump package version",
   "homepage": "https://github.com/jonz94/dependency-updater#readme",
   "bugs": {

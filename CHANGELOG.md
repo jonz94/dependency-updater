@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.8.0](https://github.com/jonz94/dependency-updater/compare/v0.7.0...v0.8.0) (2024-09-20)
+
+### Features
+
+-   add `bun` support ([53ddcee](https://github.com/jonz94/dependency-updater/commit/53ddceeb8a8f0fefb88abec80bce0f705ee5c262))
+
 ## [0.7.0](https://github.com/jonz94/dependency-updater/compare/v0.6.1...v0.7.0) (2024-07-30)
 
 ### Bug Fixes
