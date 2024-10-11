@@ -34,8 +34,8 @@ importers:
         specifier: ^2.4.9
         version: 2.4.9
       commit-and-tag-version:
-        specifier: ^12.4.4
-        version: 12.4.4
+        specifier: ^12.5.0
+        version: 12.5.0
       prettier:
         specifier: ^3.3.3
         version: 3.3.3
@@ -366,8 +366,8 @@ packages:
   command-exists@1.2.9:
     resolution: {integrity: sha512-LTQ/SGc+s0Xc0Fu5WaKnR0YiygZkm9eKFvyS+fRsU7/ZWFF8ykFM6Pc9aCVf1+xasOOZpO3BAVgVrKvsqKHV7w==}
 
-  commit-and-tag-version@12.4.4:
-    resolution: {integrity: sha512-sK+69usdfluwRO6DtXs8wpRvyM9OAuV6y8kTgMj+ncRG3KrXeKjNcxFsWnnwH/KZU9k8ErKu5uQ1ptX6/pPk7A==}
+  commit-and-tag-version@12.5.0:
+    resolution: {integrity: sha512-Ll7rkKntH20iEFOPUT4e503Jf3J0J8jSN+aSeHuvNdtv4xmv9kSLSBg2CWsMVihwF3J2WvMHBEUSCKuDNesiTA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1658,7 +1658,7 @@ snapshots:
 
   command-exists@1.2.9: {}
 
-  commit-and-tag-version@12.4.4:
+  commit-and-tag-version@12.5.0:
     dependencies:
       chalk: 2.4.2
       conventional-changelog: 4.0.0
