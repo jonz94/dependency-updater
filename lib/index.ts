@@ -34,7 +34,16 @@ const run = async () => {
   const npmCommand =
     process.platform === 'win32' ? getCommandForWindows('npm') : 'npm'
 
-  const resultOfNpmOutdated = spawnSync(npmCommand, ['outdated', '--json'])
+  const resultOfNpmOutdated = npmCommand.endsWith('.cmd')
+    ? spawnSync('cmd.exe', ['/c', `${npmCommand} outdated --json`])
+    : npmCommand.endsWith('.ps1')
+      ? spawnSync('powershell.exe', [
+          '-NoProfile',
+          '-Command',
+          `${npmCommand} outdated --json`,
+        ])
+      : spawnSync(npmCommand, ['outdated', '--json'])
+
   const outdatedPackagesJson = JSON.parse(
     resultOfNpmOutdated.stdout.toString(),
   ) as OutdatedPackagesJson
@@ -167,7 +176,17 @@ const run = async () => {
       ? [updateCommand, devDependencyFlag, `${packageName}@^${wantedVersion}`]
       : [updateCommand, `${packageName}@^${wantedVersion}`]
 
-    spawnSync(packageManagerCommand, args)
+    if (packageManagerCommand.endsWith('.cmd')) {
+      spawnSync('cmd.exe', ['/c', [packageManagerCommand, ...args].join(' ')])
+    } else if (packageManagerCommand.endsWith('.cmd')) {
+      spawnSync('powershell.exe', [
+        '-NoProfile',
+        '-Command',
+        [packageManagerCommand, ...args].join(' '),
+      ])
+    } else {
+      spawnSync(packageManagerCommand, args)
+    }
 
     if (options.enableGitCommit) {
       const {
