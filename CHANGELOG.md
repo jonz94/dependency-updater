@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.8.1](https://github.com/jonz94/dependency-updater/compare/v0.8.0...v0.8.1) (2024-12-09)
+
+### Features
+
+- setup `pkg-pr-new` for continuous preview releases ([2dbf8d9](https://github.com/jonz94/dependency-updater/commit/2dbf8d9e97e5a334b462480e613e7ee05ab9aa5d))
+
+### Bug Fixes
+
+- address issue on Windows ([f05cdaf](https://github.com/jonz94/dependency-updater/commit/f05cdaf412046977741d38bf833774d65b79d6d9))
+
 ## [0.8.0](https://github.com/jonz94/dependency-updater/compare/v0.7.0...v0.8.0) (2024-09-20)
 
 ### Features
