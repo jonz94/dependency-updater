@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.9.0](https://github.com/jonz94/dependency-updater/compare/v0.8.1...v0.9.0) (2024-12-26)
+
+### Features
+
+- support both `bun.lockb` and `bun.lock` ([2bd1064](https://github.com/jonz94/dependency-updater/commit/2bd1064a3f3bae3ffcdfdcde872d4084d91f6a91))
+
 ## [0.8.1](https://github.com/jonz94/dependency-updater/compare/v0.8.0...v0.8.1) (2024-12-09)
 
 ### Features
