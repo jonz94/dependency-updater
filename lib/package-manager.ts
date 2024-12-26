@@ -6,14 +6,15 @@ export type UpdateCommand = 'install' | 'add'
 export function detectPackageManager() {
   let currentPackageManager: SupportedPackageManager | null = null
 
-  const lookupTable: Record<SupportedPackageManager, string> = {
-    npm: 'package-lock.json',
-    pnpm: 'pnpm-lock.yaml',
-    yarn: 'yarn.lock',
-    bun: 'bun.lockb',
+  const lookupTable: Record<string, SupportedPackageManager> = {
+    'package-lock.json': 'npm',
+    'pnpm-lock.yaml': 'pnpm',
+    'yarn.lock': 'yarn',
+    'bun.lockb': 'bun',
+    'bun.lock': 'bun',
   } as const
 
-  for (const [packageManager, lockFile] of Object.entries(lookupTable)) {
+  for (const [lockFile, packageManager] of Object.entries(lookupTable)) {
     const doesExist = existsSync(lockFile)
 
     if (doesExist) {
