@@ -46,8 +46,8 @@ importers:
         specifier: ^2.5.6
         version: 2.5.6(prettier@3.4.2)
       replace-in-file:
-        specifier: ^8.2.0
-        version: 8.2.0
+        specifier: ^8.3.0
+        version: 8.3.0
       rimraf:
         specifier: ^6.0.1
         version: 6.0.1
@@ -315,8 +315,8 @@ packages:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
     engines: {node: '>=4'}
 
-  chalk@5.3.0:
-    resolution: {integrity: sha512-dLitG79d+GV1Nb/VYcCDFivJeK1hiukt9QjRNVOsUtTy1rR1YJsmpGGTZ3qJos+uw7WmWF4wUwBd9jxjocFC2w==}
+  chalk@5.4.1:
+    resolution: {integrity: sha512-zgVZuo2WcZgfUEmsn6eO3kINexW8RAE4maiQ8QNs8CtpPCSyMiYsULR3HQYkm3w8FIA3SberyMJMSldGsW+U3w==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
 
   cliui@7.0.4:
@@ -681,8 +681,8 @@ packages:
   is-arrayish@0.2.1:
     resolution: {integrity: sha512-zz06S8t0ozoDXMG+ube26zeCTNXcKIPJZJi8hBrF4idCLms4CG9QtK7qBl1boi5ODzFpjswb5JPmHCbMpjaYzg==}
 
-  is-core-module@2.15.1:
-    resolution: {integrity: sha512-z0vtXSwucUJtANQWldhbtbt7BnL0vxiFjIdDLAatwhDYty2bad6s+rijD6Ri4YuYJubLzIJLUidCh09e1djEVQ==}
+  is-core-module@2.16.1:
+    resolution: {integrity: sha512-UfoeMA6fIJ8wTYFEUjelnaGI67v6+N7qXJEvQuIGa99l4xsCruSYOVSQ0uPANn4dAzm8lkYPaKLrrijLq7x23w==}
     engines: {node: '>= 0.4'}
 
   is-fullwidth-code-point@3.0.0:
@@ -1020,8 +1020,8 @@ packages:
     resolution: {integrity: sha512-6tDA8g98We0zd0GvVeMT9arEOnTw9qM03L9cJXaCjrip1OO764RDBLBfrB4cwzNGDj5OA5ioymC9GkizgWJDUg==}
     engines: {node: '>=8'}
 
-  replace-in-file@8.2.0:
-    resolution: {integrity: sha512-hMsQtdYHwWviQT5ZbNsgfu0WuCiNlcUSnnD+aHAL081kbU9dPkPocDaHlDvAHKydTWWpx1apfcEcmvIyQk3CpQ==}
+  replace-in-file@8.3.0:
+    resolution: {integrity: sha512-4VhddQiMCPIuypiwHDTM+XHjZoVu9h7ngBbSCnwGRcwdHwxltjt/m//Ep3GDwqaOx1fDSrKFQ+n7uo4uVcEz9Q==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1036,8 +1036,9 @@ packages:
   resolve-pkg-maps@1.0.0:
     resolution: {integrity: sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw==}
 
-  resolve@1.22.8:
-    resolution: {integrity: sha512-oKWePCxqpd6FlLvGV1VU0x7bkPmmCNolxzjMf4NczoDnQcIWrAF+cPtZn5i6n+RfD2d9i0tzpKnG6Yk168yIyw==}
+  resolve@1.22.10:
+    resolution: {integrity: sha512-NPRy+/ncIMeDlTAsuqwKIiferiawhefFJtkNSW0qZJEqMEb+qBt/77B/jGeeek+F0uOeN05CDa6HXbbIgtVX4w==}
+    engines: {node: '>= 0.4'}
     hasBin: true
 
   rimraf@6.0.1:
@@ -1181,11 +1182,11 @@ packages:
     resolution: {integrity: sha512-Zc+8eJlFMvgatPZTl6A9L/yht8QqdmUNtURHaKZLmKBE12hNPSrqNkUp2cs3M/UKmNVVAMFQYSjYIVHDjW5zew==}
     engines: {node: '>=12.0.0'}
 
-  tldts-core@6.1.66:
-    resolution: {integrity: sha512-s07jJruSwndD2X8bVjwioPfqpIc1pDTzszPe9pL1Skbh4bjytL85KNQ3tolqLbCvpQHawIsGfFi9dgerWjqW4g==}
+  tldts-core@6.1.70:
+    resolution: {integrity: sha512-RNnIXDB1FD4T9cpQRErEqw6ZpjLlGdMOitdV+0xtbsnwr4YFka1zpc7D4KD+aAn8oSG5JyFrdasZTE04qDE9Yg==}
 
-  tldts@6.1.66:
-    resolution: {integrity: sha512-l3ciXsYFel/jSRfESbyKYud1nOw7WfhrBEF9I3UiarYk/qEaOOwu3qXNECHw4fHGHGTEOuhf/VdKgoDX5M/dhQ==}
+  tldts@6.1.70:
+    resolution: {integrity: sha512-/W1YVgYVJd9ZDjey5NXadNh0mJXkiUMUue9Zebd0vpdo1sU+H4zFFTaJ1RKD4N6KFoHfcXy6l+Vu7bh+bdWCzA==}
     hasBin: true
 
   tough-cookie@5.0.0:
@@ -1511,7 +1512,7 @@ snapshots:
       escape-string-regexp: 1.0.5
       supports-color: 5.5.0
 
-  chalk@5.3.0: {}
+  chalk@5.4.1: {}
 
   cliui@7.0.4:
     dependencies:
@@ -1921,7 +1922,7 @@ snapshots:
 
   is-arrayish@0.2.1: {}
 
-  is-core-module@2.15.1:
+  is-core-module@2.16.1:
     dependencies:
       hasown: 2.0.2
 
@@ -2093,14 +2094,14 @@ snapshots:
   normalize-package-data@2.5.0:
     dependencies:
       hosted-git-info: 2.8.9
-      resolve: 1.22.8
+      resolve: 1.22.10
       semver: 5.7.2
       validate-npm-package-license: 3.0.4
 
   normalize-package-data@3.0.3:
     dependencies:
       hosted-git-info: 4.1.0
-      is-core-module: 2.15.1
+      is-core-module: 2.16.1
       semver: 7.6.3
       validate-npm-package-license: 3.0.4
 
@@ -2256,9 +2257,9 @@ snapshots:
       indent-string: 4.0.0
       strip-indent: 3.0.0
 
-  replace-in-file@8.2.0:
+  replace-in-file@8.3.0:
     dependencies:
-      chalk: 5.3.0
+      chalk: 5.4.1
       glob: 10.4.5
       yargs: 17.7.2
 
@@ -2268,9 +2269,9 @@ snapshots:
 
   resolve-pkg-maps@1.0.0: {}
 
-  resolve@1.22.8:
+  resolve@1.22.10:
     dependencies:
-      is-core-module: 2.15.1
+      is-core-module: 2.16.1
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
@@ -2417,15 +2418,15 @@ snapshots:
       fdir: 6.4.2(picomatch@4.0.2)
       picomatch: 4.0.2
 
-  tldts-core@6.1.66: {}
+  tldts-core@6.1.70: {}
 
-  tldts@6.1.66:
+  tldts@6.1.70:
     dependencies:
-      tldts-core: 6.1.66
+      tldts-core: 6.1.70
 
   tough-cookie@5.0.0:
     dependencies:
-      tldts: 6.1.66
+      tldts: 6.1.70
 
   tr46@5.0.0:
     dependencies:
