@@ -17,6 +17,7 @@ Features/TODOs
     - ✅ npm
     - ✅ pnpm
     - ✅ yarn
+    - ✅ bun
 - 🚧 Choose which packages to update
     - ✅ Update all outdated packages in single run
     - 🚧 Update only some of packages
@@ -28,6 +29,7 @@ Features/TODOs
     - 🚧 npm 7+
     - 🚧 pnpm
     - 🚧 yarn
+    - 🚧 bun
 
 Installation
 ---
