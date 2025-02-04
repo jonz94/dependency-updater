@@ -41,7 +41,7 @@ importers:
         version: 3.4.2
       prettier-plugin-organize-imports:
         specifier: ^4.1.0
-        version: 4.1.0(prettier@3.4.2)(typescript@5.7.2)
+        version: 4.1.0(prettier@3.4.2)(typescript@5.7.3)
       prettier-plugin-packagejson:
         specifier: ^2.5.8
         version: 2.5.8(prettier@3.4.2)
@@ -55,8 +55,8 @@ importers:
         specifier: ^4.19.2
         version: 4.19.2
       typescript:
-        specifier: ~5.7.2
-        version: 5.7.2
+        specifier: ~5.7.3
+        version: 5.7.3
 
 packages:
 
@@ -1224,8 +1224,8 @@ packages:
   typedarray@0.0.6:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
 
-  typescript@5.7.2:
-    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
+  typescript@5.7.3:
+    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -2187,10 +2187,10 @@ snapshots:
 
   pify@3.0.0: {}
 
-  prettier-plugin-organize-imports@4.1.0(prettier@3.4.2)(typescript@5.7.2):
+  prettier-plugin-organize-imports@4.1.0(prettier@3.4.2)(typescript@5.7.3):
     dependencies:
       prettier: 3.4.2
-      typescript: 5.7.2
+      typescript: 5.7.3
 
   prettier-plugin-packagejson@2.5.8(prettier@3.4.2):
     dependencies:
@@ -2451,7 +2451,7 @@ snapshots:
 
   typedarray@0.0.6: {}
 
-  typescript@5.7.2: {}
+  typescript@5.7.3: {}
 
   uglify-js@3.19.3:
     optional: true
