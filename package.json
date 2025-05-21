@@ -32,7 +32,7 @@
     "fmt": "prettier --write .",
     "prepublishOnly": "pnpm run clean && pnpm run build",
     "release": "commit-and-tag-version",
-    "replace-version-placeholder": "tsx scripts/replace-version-placeholder.ts"
+    "replace-version-placeholder": "jiti ./scripts/replace-version-placeholder.ts"
   },
   "dependencies": {
     "command-exists": "^1.2.9",
@@ -46,20 +46,15 @@
     "@types/node": "^20.17.19",
     "@types/prompts": "^2.4.9",
     "commit-and-tag-version": "^12.5.0",
+    "jiti": "^2.4.2",
     "prettier": "^3.5.2",
     "prettier-plugin-organize-imports": "^4.1.0",
     "prettier-plugin-packagejson": "^2.5.8",
     "replace-in-file": "^8.3.0",
     "rimraf": "^6.0.1",
-    "tsx": "^4.19.3",
     "typescript": "~5.7.3"
   },
   "publishConfig": {
     "access": "public"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild"
-    ]
   }
 }
